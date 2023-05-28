@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
+import { Header } from "./components/Header";
 import { Products } from "./components/Products";
 import { products as initialProducts } from "./mocks/products.json";
 
@@ -21,7 +22,12 @@ function App() {
 
 	const filteredProducts = filterProducts(products);
 
-	return <Products products={filteredProducts} />;
+	return (
+		<>
+			<Header />
+			<Products products={filteredProducts} />;
+		</>
+	);
 }
 
 export default App;
