@@ -1,6 +1,8 @@
 # Enunciado
 
-Ecommerce
+Test de React del canal de YouTube de [@midudev](https://github.com/midudev/aprendiendo-react) [Video](https://www.youtube.com/watch?v=B9tDYAZZxcE)
+
+E-Commerce
 
 - Muestra una lista de productos que vienen de un JSON
 - Añade un filtro por categoría
