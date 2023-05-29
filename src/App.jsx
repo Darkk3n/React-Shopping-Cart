@@ -6,7 +6,7 @@ import { Products } from "./components/Products";
 import { useFilters } from "./hooks/useFilters";
 import { products as initialProducts } from "./mocks/products.json";
 
-function App() {
+export function App() {
 	const [products] = useState(initialProducts);
 	const { filterProducts, setFilters } = useFilters();
 	const filteredProducts = filterProducts(products);
@@ -19,5 +19,3 @@ function App() {
 		</>
 	);
 }
-
-export default App;
